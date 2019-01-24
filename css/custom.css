@@ -1,1 +1,5 @@
 /* your styles go here */
+.home {
+    background-image: url("../img/pexels-photo-257736.jpeg") !important;
+    background-position-y: 50%;
+}
