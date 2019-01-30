@@ -20,6 +20,21 @@
     width: 200px;
 }
 
-.debug {
-    bordre:red 1px solid;
+/* ===================================================================
+   MEDIA QUERIES FOR IMAGE IN PRODUCTS SECTION
+===================================================================  */
+
+@media (max-width:991px) {
+    section.newsletter #seimens img {
+        text-align: center;
+    }
+    section.newsletter #sassin img {
+        text-align: center;
+    }
+}
+
+@media (max-width:770px) {
+    section.newsletter #seimens img {
+        width: 100%;
+    }
 }
